@@ -3,3 +3,5 @@ var playlist = {
   madonna: "vogue",
   maroon5: "memories"
 };
+
+Object.assign({}, playlist, {beyonce: "halo"})
