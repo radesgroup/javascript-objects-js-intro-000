@@ -3,5 +3,6 @@ var playlist = {
   madonna: "vogue",
   maroon5: "memories"
 };
-
+function updatePlaylist (){
 Object.assign({}, playlist, {beyonce: "halo"})
+}
