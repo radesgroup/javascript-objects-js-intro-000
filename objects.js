@@ -4,10 +4,10 @@ var playlist = {
 };
 //var artistName = "Phil Ochs";
 //var songTitle = "Here's to the State of Mississippi";
-function updatePlaylist(playlist, artistName, songTitle){
-  playlist[artistName] = songTitle
+function updatePlaylist(obj, key, value){
+  obj[key] = value
 
-  return playlist
+  return obj
 }
 updatePlaylist(playlist, "Phil Ochs", "Here's to the State of Mississippi")
 console.log(playlist)
