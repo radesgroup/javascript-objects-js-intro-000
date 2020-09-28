@@ -11,3 +11,11 @@ function updatePlaylist(obj, key, value){
 }
 updatePlaylist(playlist, "Phil Ochs", "Here's to the State of Mississippi")
 console.log(playlist)
+
+function removeFromPlaylist(obj, key){
+  delete obj[key];
+  return obj
+}
+
+removeFromPlaylist(playlist, "Slowdive")
+console.log(playlist)
