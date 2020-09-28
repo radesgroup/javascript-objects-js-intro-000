@@ -3,15 +3,3 @@ var playlist = {
   madonna: "vogue",
   maroon5: "memories"
 };
-var artist = "beyonce";
-var song = "halo";
-function updatePlaylist (playlist, artist, song){
-Object.assign({}, playlist, artist, song)
-}
-playlist
-
-function removeFromPlaylist (playlist, artist){
-
-delete playlist.artist;
-return playlist;
-}
