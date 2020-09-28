@@ -1,12 +1,11 @@
 var playlist = {
-  rihanna: "umbrella",
-  madonna: "vogue",
-  maroon5: "memories"
+  Slowdive: 'Alison',
+  My Bloody Valentine: 'Sometimes'
 };
-var artistName = "beyonce";
-var songTitle = "halo";
+var artistName = "Phil Ochs";
+var songTitle = "Here's to the State of Mississippi";
+
 
 function updatePlaylist(playlist, artistName, songTitle){
-playlist.artistName = songTitle;
-
+  playlist.artistName = songTitle
 }
